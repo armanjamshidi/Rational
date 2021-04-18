@@ -35,7 +35,7 @@ public class Rational {
 //    result = new Rational( num * a.den + a.num * den, den * a.den );
 //    return result;
         return new Rational(numer * a.den + a.numer * den, den * a.den);
-    }//(3/6,8/12)(3*12+8*6,6*12)
+    }
 
     public int gcd(int a, int b) {
         if (b == 0) return a;
